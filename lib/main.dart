@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:viata/view/main_page.dart';
+import 'package:viata/view/splash.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +16,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       routes: {
 
-        //'/': (context) => SplashPage(),
+        '/': (context) => SplashPage(),
+        '/main': (context) => MainPage(),
 
       },
     );
